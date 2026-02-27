@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito, Dancing_Script, Shantell_Sans, Agbalumo, Itim } from "next/font/google";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -55,6 +56,7 @@ export default function RootLayout({
           ${itim.variable}
           font-nunito antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>

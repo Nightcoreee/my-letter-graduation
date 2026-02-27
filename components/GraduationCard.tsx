@@ -1,22 +1,20 @@
 "use client";
 
 import { useState } from "react";
-
+import styles from "@/styles/GraduationCard.module.css";
+import Celendar from "@/components/Celendar";
 
 export default function GraduationCard() {
-  const [bgColor, setBgColor] = useState("#faf6ed");
-  const [bgImg, setBgImg] = useState<string | null>(null);
+  const [bgColor] = useState("#faf6ed");
+  const [bgImg] = useState<string | null>(null);
 
-  const handleChangeBg = (color: string, img: string | null) => {
-    setBgColor(color);
-    setBgImg(img);
-  };
+  
 
   return (
     <>
       {/* Full-screen card */}
       <div
-        className="relative w-screen h-screen flex items-center justify-center overflow-hidden transition-colors duration-500"
+        className={styles.card}
         style={{ 
             backgroundColor: bgColor,
             backgroundImage: "url('/img/bg/cloud1.jpg')",
@@ -27,13 +25,13 @@ export default function GraduationCard() {
         {/* Background image layer */}
         {bgImg && (
           <div
-            className="absolute inset-0 bg-cover bg-center transition-opacity duration-500"
+            className={styles.bgImage}
             style={{ backgroundImage: `url('${bgImg}')`, opacity: 0.45 }}
           />
         )}
         {/* Soft overlay so text stays readable */}
         <div
-          className="absolute inset-0 transition-colors duration-500"
+          className={styles.overlay}
           style={{ background: `${bgColor}88` }}
         />
 
@@ -41,7 +39,7 @@ export default function GraduationCard() {
        
 
         {/* ── Main content ── */}
-        <div className="relative z-20 flex items-center gap-16 animate-fade-up">
+        <div className={styles.mainContent}>
 
           {/* Avatar */}
 
@@ -73,6 +71,10 @@ export default function GraduationCard() {
 
           </div>
         </div>
+      </div>
+
+      <div className="celender-item">
+        <Celendar />
       </div>
     </>
   );
