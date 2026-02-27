@@ -81,7 +81,7 @@ export default function Celendar() {
                                         >
                                             <path
                                                 d="M29 4 L34.5 20.5 L52 20.5 L38.5 31 L43.5 47.5 L29 37.5 L14.5 47.5 L19.5 31 L6 20.5 L23.5 20.5 Z"
-                                                stroke="#1a5fb4"
+                                                stroke="#c0392b"
                                                 strokeWidth="2.5"
                                                 fill="none"
                                                 strokeLinejoin="round"

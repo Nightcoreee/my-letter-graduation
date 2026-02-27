@@ -30,7 +30,7 @@
 /* ── Title ── */
 .title {
     text-align: center;
-    font-size: 48px;
+    font-size: 72px;
     font-weight: 700;
     color: #1a5fb4;
     font-family: var(--font-dancing);
@@ -39,51 +39,44 @@
 
 .subtitle {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: #1a5fb4;
     margin-bottom: 24px;
-    font-family: var(--font-nunito);
+    font-family: var(--font-shantell);
 }
 
 /* ── Grid lịch ── */
 .grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: auto;
-    align-content: start;
+    grid-auto-rows: 60px;
+    align-items: center;
     gap: 0;
 }
 
 /* Hàng tiêu đề T2 → CN */
 .dayHeader {
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 700;
     color: #1a5fb4;
     padding: 8px 0 16px;
-    font-family: var(--font-nunito);
+    font-family: var(--font-itim);
 }
 
-.dayHeader.sunday {
-    color: #c0392b;
-}
 
 /* Ô ngày */
 .dayCell {
     text-align: center;
     padding: 16px 0;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: #1a5fb4;
-    font-family: var(--font-nunito);
+    font-family: var(--font-itim);
 }
 
-.dayCell.sunday {
-    color: #c0392b;
-}
 
-/* Ngày được highlight — ngôi sao */
 .dayCell.highlight {
     display: flex;
     align-items: center;
@@ -95,8 +88,13 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 52px;
-    height: 52px;
+    width: 80px;
+    height: 80px;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50%       { transform: scale(1.3); }
 }
 
 .starSvg {
@@ -104,12 +102,13 @@
     inset: 0;
     width: 100%;
     height: 100%;
+    animation: pulse 1.2s ease-in-out infinite;
 }
 
 .starNumber {
     position: relative;
     z-index: 1;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     color: #1a5fb4;
 }
