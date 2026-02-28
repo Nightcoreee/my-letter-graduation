@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito, Dancing_Script, Shantell_Sans, Agbalumo, Itim } from "next/font/google";
+import localFont from "next/font/local";
 import Header from "@/components/Header";
 import "./globals.css";
 
@@ -33,6 +34,11 @@ const itim = Itim({
   variable: "--font-itim",
 });
 
+const rosellinda = localFont({
+  src: "../public/fonts/Rosellinda Alyamore.woff",
+  variable: "--font-rosellinda",
+});
+
 export const metadata: Metadata = {
   title: "Thiệp Tốt Nghiệp - Đào Ngọc Hà",
   icons: {
@@ -54,6 +60,7 @@ export default function RootLayout({
           ${shantellSans.variable}
           ${agbalumo.variable}
           ${itim.variable}
+          ${rosellinda.variable}
           font-nunito antialiased`}
       >
         <Header />

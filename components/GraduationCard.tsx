@@ -3,6 +3,7 @@
 import { useState } from "react";
 import styles from "@/styles/GraduationCard.module.css";
 import Celendar from "@/components/Celendar";
+import InvitationLetter from "@/components/InvitationLetter";
 
 export default function GraduationCard() {
   const [bgColor] = useState("#faf6ed");
@@ -75,6 +76,10 @@ export default function GraduationCard() {
 
       <div className="celender-item">
         <Celendar />
+      </div>
+
+      <div className="Letter-item">
+        <InvitationLetter />
       </div>
     </>
   );

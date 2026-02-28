@@ -1,22 +1,22 @@
 .section {
-  width: 100%;
-  background: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 0;        /* padding trên dưới 40px */
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;       
 }
 
 /* Card lịch */
 .celendarItem {
   position: relative;
   width: 680px;
-  height: 700px;          /* chỉ giữ height, bỏ min-height */
+  height: 700px;          
   flex-shrink: 0;
 }
 
 .celendarImage {
-  object-fit: cover;      /* bỏ width/height, chỉ cần object-fit khi dùng fill */
+  object-fit: cover;      
   border-radius: 16px;
 }
 
