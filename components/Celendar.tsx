@@ -71,7 +71,6 @@ export default function Celendar() {
                                 `}
                             >
                                 {isHighlight ? (
-                                    // Ngày tốt nghiệp — ngôi sao
                                     <div className={styles.starWrapper}>
                                         <svg
                                             className={styles.starSvg}

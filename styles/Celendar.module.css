@@ -7,7 +7,6 @@
     padding: 40px 0;       
 }
 
-/* Card lịch */
 .celendarItem {
   position: relative;
   width: 680px;
@@ -27,7 +26,6 @@
     border-radius: 24px;
 }
 
-/* ── Title ── */
 .title {
     text-align: center;
     font-size: 72px;
@@ -46,7 +44,6 @@
     font-family: var(--font-shantell);
 }
 
-/* ── Grid lịch ── */
 .grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -55,7 +52,6 @@
     gap: 0;
 }
 
-/* Hàng tiêu đề T2 → CN */
 .dayHeader {
     text-align: center;
     font-size: 24px;
@@ -66,7 +62,6 @@
 }
 
 
-/* Ô ngày */
 .dayCell {
     text-align: center;
     padding: 16px 0;
