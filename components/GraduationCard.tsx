@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "@/styles/GraduationCard.module.css";
 import Celendar from "@/components/Celendar";
 import InvitationLetter from "@/components/InvitationLetter";
+import Location from "@/components/Location";
 
 export default function GraduationCard() {
   const [bgColor] = useState("#faf6ed");
@@ -80,6 +81,10 @@ export default function GraduationCard() {
 
       <div className="Letter-item">
         <InvitationLetter />
+      </div>
+
+      <div className="Location-item">
+        <Location />
       </div>
     </>
   );

@@ -6,7 +6,7 @@ export default function InvitationLetter() {
     <div className={styles.section}>
         <div className={styles.content}>
             <h2 
-                    className={styles.title}>
+                className={styles.title}>
                     Hoàn thành hành trình học tập 
             </h2>
 
