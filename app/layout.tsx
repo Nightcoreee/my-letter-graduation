@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Nunito, Dancing_Script, Shantell_Sans, Agbalumo, Itim } from "next/font/google";
+import { Nunito, Dancing_Script, Shantell_Sans, Agbalumo, Itim, Dongle } from "next/font/google";
 import localFont from "next/font/local";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -39,6 +40,12 @@ const rosellinda = localFont({
   variable: "--font-rosellinda",
 });
 
+const dongle = Dongle({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dongle",
+});
+
 export const metadata: Metadata = {
   title: "Thiệp Tốt Nghiệp - Đào Ngọc Hà",
   icons: {
@@ -61,10 +68,12 @@ export default function RootLayout({
           ${agbalumo.variable}
           ${itim.variable}
           ${rosellinda.variable}
+          ${dongle.variable}
           font-nunito antialiased`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

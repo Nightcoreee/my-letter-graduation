@@ -5,6 +5,7 @@ import styles from "@/styles/GraduationCard.module.css";
 import Celendar from "@/components/Celendar";
 import InvitationLetter from "@/components/InvitationLetter";
 import Location from "@/components/Location";
+import Timeline from "@/components/Timeline";
 
 export default function GraduationCard() {
   const [bgColor] = useState("#faf6ed");
@@ -85,6 +86,10 @@ export default function GraduationCard() {
 
       <div className="Location-item">
         <Location />
+      </div>
+
+      <div className="Timeline-item">
+        <Timeline />
       </div>
     </>
   );
