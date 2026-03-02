@@ -7,7 +7,7 @@ const events = [
     imgSide: "left",
   },
   {
-    time: "13:30 - 14:00",
+    time: "13:30 - 15:00",
     desc: 'Mình và các bạn hẹn gặp ở sảnh trong khuôn viên trường sau đó chúng ta cùng chụp hình lưu để lưu lại khoảng khắc này. Sau đó các bạn sẽ ra về.',
     imgSide: "right",
   },
