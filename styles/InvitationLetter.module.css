@@ -41,13 +41,12 @@
     position: relative;
     flex: 1;              
     max-width: 50%;
-    mask-image: url('/img/masks/mask1.png');
-    -webkit-mask-image: url('/img/masks/mask1.png');
+    mask-image: url('/img/masks/mask2.png');
+    -webkit-mask-image: url('/img/masks/mask2.png');
     mask-size: 100% 100%;
     -webkit-mask-size: 100% 100%;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    mask-mode: luminance;  
     flex-shrink: 0;
     aspect-ratio: 4/3;
     align-self: center;
