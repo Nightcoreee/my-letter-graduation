@@ -7,12 +7,12 @@ const events = [
     imgSide: "left",
   },
   {
-    time: "01:30 - 2:00",
+    time: "13:30 - 14:00",
     desc: 'Mình và các bạn hẹn gặp ở sảnh trong khuôn viên trường sau đó chúng ta cùng chụp hình lưu để lưu lại khoảng khắc này. Sau đó các bạn sẽ ra về.',
     imgSide: "right",
   },
   {
-    time: "03:30 - 5:00",
+    time: "15:30 - 17:00",
     desc: "Sau khi tạm biệt các bạn, mình sẽ ở lại trường để tham gia buổi lễ tốt nghiệp cho đến khi kết thúc.",
     imgSide: "left",
   },

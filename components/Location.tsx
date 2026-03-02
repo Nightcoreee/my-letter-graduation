@@ -39,7 +39,7 @@ export default function Location() {
 
                     <p>Một số thông tin liên lạc với mình: </p>
                     <ul className={styles.contactList}>
-                        <li><strong>Số điện thoại:</strong> <a href="tel:+8494286604" className={styles.contactLink}>+84 942 866 04</a></li>
+                        <li><strong>Số điện thoại:</strong> <a href="tel:+84942786604" className={styles.contactLink}>0942786604</a></li>
                         <li><strong>Facebook: <a href="https://www.facebook.com/wishhh2003" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>Đào Ngọc Hà</a></strong></li>
                     </ul>
                 </div>

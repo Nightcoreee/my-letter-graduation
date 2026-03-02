@@ -38,35 +38,30 @@ export default function GraduationCard() {
           style={{ background: `${bgColor}88` }}
         />
 
-        {/* ── Decorative layers ── */}
        
 
         {/* ── Main content ── */}
-        <div className={styles.mainContent}>
+        <div className={styles.content}>
 
-          {/* Avatar */}
 
           {/* Info */}
-          <div className="flex flex-col gap-4 center text-center">
+          <div className={styles.info}>
             {/* "Graduation Ceremony" script label */}
             <p
-              className="text-[52px] font-bold animate-fade-up-1"
-              style={{ color: "#27AE60", fontFamily: "var(--font-agbalumo)" }}
+              className={styles.graduationLabel}
             >
               Graduation Ceremony
             </p>
 
             {/* Name */}
             <h1
-              className="text-[52px] font-bold leading-tight tracking-tight animate-fade-up-2"
-              style={{ color: "#E74C3C", fontFamily: "var(--font-shantell)" }}
+              className={styles.name}
             >
               Đào Ngọc Hà
             </h1>
 
             {/* Date */}
-            <p className="text-[40px] font-bold text-gray-500 tracking-wide animate-fade-up-3"
-              style={{ fontFamily: "var(--font-itim)" }}>
+            <p className={styles.date}>
               14 <span className="mx-2 text-gray-400"> |</span> 
               Tháng 3 <span className="mx-2 text-gray-400">|</span>
               2026
