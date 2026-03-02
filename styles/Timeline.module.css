@@ -108,7 +108,6 @@
     line-height: 1;
 }
 
-/* ── Card nội dung ── */
 .card {
     width: 100%;
     max-width: 420px;
@@ -131,19 +130,16 @@
     text-align-last: left;
 }
 
-/* Card bên trái — text căn phải */
 .cardRight {
     float: right;
-    clear: both;
 }
 
 .cardRight .cardBody {
     text-align: justify;
-    text-align-last: right ;
+    text-align-last: left ;
     clear: both;
 }
 
-/* Card bên phải — text căn trái */
 .cardLeft {
     float: left;
 }
@@ -152,4 +148,117 @@
     text-align: justify;
     text-align-last: left ;
     clear: both;
+}
+
+/* ── Tablet ── */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .section {
+    padding: 60px 12px;
+  }
+
+  .timeline {
+    padding: 0 16px;
+  }
+
+  .eventList {
+    gap: 48px;
+  }
+
+  .card {
+    padding: 16px 20px;
+    max-width: 320px;
+  }
+
+  .cardBody {
+    font-size: 16px;
+  }
+
+  .dateBadge time {
+    font-size: 17px;
+  }
+
+  .imgWrapper {
+    width: 500px;
+    height: 64px;
+  }
+
+  .timeIcon {
+    font-size: 20px;
+  }
+
+  .dateDay {
+    font-size: 20px;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 46.1875em) {
+  .section {
+    padding: 40px 12px;
+  }
+
+  .timeline {
+    padding: 0 8px;
+  }
+
+  .line {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dotWrapper {
+    position: relative;
+    left: unset;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .col {
+    width: 100% !important;
+    padding: 0 !important;
+    justify-content: center !important;
+  }
+
+  .eventList {
+    gap: 48px;
+  }
+
+  .imgWrapper {
+    width: 80%;
+    height: 50px;
+    aspect-ratio: 4/3;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .card {
+    max-width: 100%;
+    width: 100%;
+    padding: 16px 20px;
+  }
+
+  .cardBody {
+    font-size: 18px;
+  }
+
+  .dateBadge time {
+    font-size: 16px;
+  }
+
+  .cardRight,
+  .cardLeft {
+    float: none;
+  }
+
+  .dateDay {
+    font-size: 18px;
+  }
 }

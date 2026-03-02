@@ -29,11 +29,11 @@ export default function InvitationLetter() {
             <div className={styles.avatarText}>
                 <p>
                     Khoảnh khắc nhận bằng tốt nghiệp sắp tới là cả một hành trình dài được gói gọn. 
-                    Mình xin gửi lời tri ân chân thành nhất đến gia đình là điểm tựa vững chắc nhất, 
-                    luôn hy sinh và tin tưởng tuyệt đối. Cảm ơn thầy cô đã dẫn dắt, truyền đạt kiến thức quý giá. 
-                    Và cảm ơn bạn bè, những người đồng đội không thể thiếu. 
+                    Mình xin gửi lời tri ân chân thành nhất đến gia đình là điểm tựa vững chắc nhất đã 
+                    luôn hy sinh và tin tưởng tuyệt đối. Cảm ơn thầy cô đã dẫn dắt và truyền đạt kiến thức quý giá. 
+                    Và cảm ơn bạn bè những người đồng đội không thể thiếu. 
                     Mọi thành quả ngày hôm nay đều là nhờ sự đồng hành của mọi người. 
-                    Chiếc áo cử nhân này không phải là dấu chấm hết, mà là lời hứa cho một sự khởi đầu mới đầy tự tin và lòng biết ơn..
+                    Chiếc áo kỹ sư này không phải là dấu chấm hết mà là lời hứa cho một sự khởi đầu mới đầy tự tin và lòng biết ơn..
                 </p>
             </div>
         </div>

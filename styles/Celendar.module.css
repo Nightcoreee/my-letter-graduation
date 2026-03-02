@@ -107,3 +107,94 @@
     font-weight: 700;
     color: #1a5fb4;
 }
+
+
+/* ── Tablet ── */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .celendarItem {
+    width: 520px;
+    height: 540px;
+  }
+
+  .title {
+    font-size: 52px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .dayHeader {
+    font-size: 18px;
+  }
+
+  .dayCell {
+    font-size: 18px;
+  }
+
+  .grid {
+    grid-auto-rows: 46px;
+  }
+
+  .starWrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .starNumber {
+    font-size: 18px;
+  }
+
+  .calendarOverlay {
+    padding: 24px 32px;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 46.1875em) {
+  .section {
+    padding: 24px 12px;
+  }
+
+  .celendarItem {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 680/700;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .dayHeader {
+    font-size: 18px;
+    padding: 4px 0 8px;
+  }
+
+  .dayCell {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+
+  .grid {
+    grid-auto-rows: 36px;
+  }
+
+  .starWrapper {
+    width: 40px;
+    height: 40px;
+  }
+
+  .starNumber {
+    font-size: 18px;
+  }
+
+  .calendarOverlay {
+    padding: 16px 20px;
+  }
+}

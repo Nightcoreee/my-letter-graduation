@@ -2,27 +2,23 @@ import styles from "@/styles/Timeline.module.css";
 
 const events = [
   {
-    time: "08:00",
-    title: "Ngày Đầu Tiên Lạc Lối",
-    desc: "Bước chân vào cánh cổng đại học, cảm thấy vừa hồi hộp vừa choáng ngợp. Cả nhóm bạn bây giờ đã gặp nhau trong buổi học định hướng đầu tiên, ai nấy đều ngơ ngác và lạc đường tìm phòng học, tạo nên tràng cười đầu tiên!",
+    time: "12:00 - 12:30",
+    desc: "Buổi trưa các bạn chuẩn bị phương tiện để di chuyển đến trường Đại Học Sài Gòn theo đúng địa chỉ mà mình đã ghi ở bên trên.",
     imgSide: "left",
   },
   {
-    time: "03:00",
-    title: 'Cú Đêm "Chốt" Đồ Án',
-    desc: 'Đèn phòng máy vẫn sáng trưng lúc 3 giờ sáng. Cả team gần như kiệt sức sau những ngày "cày cuốc" liên tục, nhưng cuối cùng cũng nhấn nút Gửi đồ án tốt nghiệp thành công!',
+    time: "01:30 - 2:00",
+    desc: 'Mình và các bạn hẹn gặp ở sảnh trong khuôn viên trường sau đó chúng ta cùng chụp hình lưu để lưu lại khoảng khắc này. Sau đó các bạn sẽ ra về.',
     imgSide: "right",
   },
   {
-    time: "12:00",
-    title: "Căn-tin Hẹn Ước Cuối",
-    desc: "Buổi trưa cuối cùng cả nhóm tụ họp tại căn-tin quen thuộc. Không còn deadline, chỉ có những lời tâm sự về tương lai. Khoảnh khắc chia tay không chính thức, đầy bùi ngùi nhưng ấm áp.",
+    time: "03:30 - 5:00",
+    desc: "Sau khi tạm biệt các bạn, mình sẽ ở lại trường để tham gia buổi lễ tốt nghiệp cho đến khi kết thúc.",
     imgSide: "left",
   },
   {
-    time: "14:00",
-    title: "Ngày Tốt Nghiệp",
-    desc: "Bước lên bục nhận bằng. Khoảnh khắc xúc động nhất là khi nhìn xuống, thấy giọt nước mắt tự hào lấp lánh trong mắt bố mẹ. Chiếc mũ tung bay, là lời cảm ơn trọn vẹn.",
+    time: "Ăn liên hoan",
+    desc: "Sau khi lễ tốt nghiệp kết thúc mình sẽ thông báo giờ giấc và ngày ăn liên hoan cho các bạn sau nhé.",
     imgSide: "right",
   },
 ];
@@ -73,7 +69,7 @@ export default function Timeline() {
                   >
                     
                     <div className={styles.cardBody}>
-                      <p><strong>{event.title}:</strong> {event.desc}</p>
+                      <p>{event.desc}</p>
                     </div>
                   </div>
                 )}
@@ -91,7 +87,7 @@ export default function Timeline() {
                   >
                     
                     <div className={styles.cardBody}>
-                      <p><strong>{event.title}:</strong> {event.desc}</p>
+                      <p>{event.desc}</p>
                     </div>
                   </div>
                 )}

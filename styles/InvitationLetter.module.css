@@ -120,3 +120,95 @@
     font-size: 50px;
     text-align: right;
 }
+
+
+/* ── Tablet ── */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .section {
+    padding: 60px 0;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .avatarSection {
+    padding: 0 24px;
+    gap: 24px;
+  }
+
+  .avatarText {
+    font-size: 16px;
+  }
+
+  .letter {
+    width: 560px;
+    min-height: 600px;
+  }
+
+  .body {
+    font-size: 17px;
+  }
+
+  .signature {
+    font-size: 40px;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 46.1875em) {
+  .section {
+    padding: 40px 0;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    padding: 0 16px 32px;
+  }
+
+  .avatarSection {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 16px;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .avatar {
+    max-width: 80%;
+    width: 80%;
+  }
+
+  .avatarText {
+    max-width: 100%;
+    font-size: 18px;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .letterWrapper {
+    padding: 40px 16px;
+  }
+
+  .letter {
+    width: 100%;
+    min-height: unset;
+  }
+
+  .body {
+    font-size: 18px;
+    padding: 0 16px;
+  }
+
+  .signature {
+    font-size: 36px;
+  }
+}

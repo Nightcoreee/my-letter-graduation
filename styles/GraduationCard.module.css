@@ -76,3 +76,58 @@
   margin: 0 8px;
   color: #9ca3af;
 }
+
+
+@media (max-width: 63.9375em) {
+  .content {
+    gap: 32px;
+    flex-direction: column;
+    padding: 0 24px;
+  }
+
+  .graduationLabel {
+    font-size: 38px !important;
+  }
+
+  .name {
+    font-size: 38px !important;
+  }
+
+  .date {
+    font-size: 28px !important;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 46.1875em) {
+  .card {
+    overflow: hidden;      
+  }
+
+  .content {
+    gap: 20px;
+    padding: 0 16px;
+    width: 100%;           
+    overflow: hidden;      
+  }
+
+  .graduationLabel {
+    font-size: 28px !important;
+    word-break: break-word;
+  }
+
+  .name {
+    font-size: 28px !important;
+    word-break: break-word;
+  }
+
+  .date {
+    font-size: 20px !important;
+    word-break: break-word;
+  }
+
+  .morphWrapper {
+      width: 100% !important;   /* ← quan trọng nhất */
+      max-width: 100vw;
+  }
+}

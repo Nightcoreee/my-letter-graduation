@@ -36,6 +36,12 @@ export default function Location() {
                         <li><strong>Cổng sau ĐH Sài Gòn:</strong> <a href="https://maps.google.com/?q=Trung+tâm+Đào+tạo+Quốc+tế+Trường+Đại+học+Sài+Gòn" target="_blank" rel="noopener noreferrer"><span className={styles.address}>4 Nguyễn Trãi, Phường Chợ Quán, TP.HCM</span></a></li>
                         <li><strong>Trường ĐHSP HCM:</strong> <a href="https://maps.google.com/?q=Đại+Học+Sư+Phạm+-+280+An+Dương+Vương" target="_blank" rel="noopener noreferrer"><span className={styles.address}>280 An Dương Vương, Phường Chợ Quán, Tp.HCM</span></a></li>
                     </ul>
+
+                    <p>Một số thông tin liên lạc với mình: </p>
+                    <ul className={styles.contactList}>
+                        <li><strong>Số điện thoại:</strong> <a href="tel:+8494286604" className={styles.contactLink}>+84 942 866 04</a></li>
+                        <li><strong>Facebook: <a href="https://www.facebook.com/wishhh2003" target="_blank" rel="noopener noreferrer" className={styles.contactLink}>Đào Ngọc Hà</a></strong></li>
+                    </ul>
                 </div>
             </div>
         </div>
