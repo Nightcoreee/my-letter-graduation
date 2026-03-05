@@ -1,4 +1,4 @@
-import styles from "@/styles/Celendar.module.css";
+import styles from "@/styles/Calendar.module.css";
 import Image from "next/image";
 
 const MONTH = 3;
@@ -17,7 +17,7 @@ function getFirstDayOfMonth(month: number, year: number) {
   const day = new Date(year, month - 1, 1).getDay();
   return day === 0 ? 6 : day - 1;
 }
-export default function Celendar() {
+export default function Calendar() {
     const totalDays = getDaysInMonth(MONTH, YEAR);
     const firstDay = getFirstDayOfMonth(MONTH, YEAR);
 
@@ -30,12 +30,12 @@ export default function Celendar() {
     
     return (
         <div className={styles.section}>
-        <div className={styles.celendarItem}>
+        <div className={styles.calendarItem}>
             <Image
-                src="/img/celendar/celendar.jpg"
+                src="/img/calendar/calendar.jpg"
                 alt="graduation schedule"
                 fill
-                className={styles.celendarImage}
+                className={styles.calendarImage}
             />
             <div className={styles.calendarOverlay}>
 

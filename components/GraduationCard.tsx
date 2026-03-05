@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import styles from "@/styles/GraduationCard.module.css";
-import Celendar from "@/components/Celendar";
+import Calendar from "@/components/Calendar";
 import InvitationLetter from "@/components/InvitationLetter";
 import Location from "@/components/Location";
 import Timeline from "@/components/Timeline";
@@ -71,8 +71,8 @@ export default function GraduationCard() {
         </div>
       </div>
 
-      <div className="celender-item">
-        <Celendar />
+      <div className="Calender-item">
+        <Calendar />
       </div>
 
       <div className="Letter-item">

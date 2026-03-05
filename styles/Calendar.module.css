@@ -7,14 +7,14 @@
     padding: 40px 0;       
 }
 
-.celendarItem {
+.calendarItem {
   position: relative;
   width: 680px;
   height: 700px;          
   flex-shrink: 0;
 }
 
-.celendarImage {
+.calendarImage {
   object-fit: cover;      
   border-radius: 16px;
 }
@@ -111,7 +111,7 @@
 
 /* ── Tablet ── */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
-  .celendarItem {
+  .calendarItem {
     width: 520px;
     height: 540px;
   }
@@ -156,7 +156,7 @@
     padding: 24px 12px;
   }
 
-  .celendarItem {
+  .calendarItem {
     width: 100%;
     height: auto;
     aspect-ratio: 680/700;
