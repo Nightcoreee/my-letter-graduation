@@ -19,7 +19,7 @@ export default function InvitationLetter() {
         <div className={styles.avatarSection}>
             <div className={styles.avatar}>
                 <Image
-                    src="/img/avatar/avt.jpg"
+                    src="/img/avatar/img_graduate.jpg"
                     alt="avatar"
                     fill
                     className="object-cover object-top"
@@ -42,7 +42,7 @@ export default function InvitationLetter() {
         <div className={styles.letterWrapper}>
             <div className={styles.letter}>
                 <Image
-                    src="/img/bg/cloud1.jpg"
+                    src="/img/letter/letter1.jpg"
                     alt="letter"
                     fill
                     className="object-cover object-top"
