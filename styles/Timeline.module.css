@@ -104,7 +104,7 @@
     font-size: 28px;
     font-weight: 800;
     color: #fff;
-    font-family: var(--font-nunito);
+    font-family: var(--font-itim);
     line-height: 1;
 }
 
@@ -122,9 +122,9 @@
 
 
 .cardBody {
-    font-family: var(--font-nunito);
+    font-family: var(--font-itim);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.7;
     color: #1e293b;
     text-align: justify;
@@ -171,7 +171,7 @@
   }
 
   .cardBody {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .dateBadge time {
@@ -194,6 +194,9 @@
 
 /* ── Mobile ── */
 @media (max-width: 46.1875em) {
+  .title {
+    font-size: 32px;
+  }
   .section {
     padding: 40px 12px;
   }
@@ -260,6 +263,6 @@
   }
 
   .dateDay {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

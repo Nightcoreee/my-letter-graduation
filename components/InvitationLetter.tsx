@@ -79,8 +79,8 @@ export default function InvitationLetter() {
                         <p><strong>Thông tin Lễ Tốt Nghiệp:</strong></p>
 
                         <ul className={styles.list}>
-                            <li><strong>Thời gian:</strong> <strong>14 giờ</strong>, <strong>Ngày 14/03/2026</strong></li>
-                            <li><strong>Địa điểm:</strong> Khu vực <strong>Sảnh Hội Trường A</strong> tại <strong>Trường Đại học Sài Gòn</strong></li>
+                            <li><strong>Thời gian:</strong> <strong>14h30</strong>, <strong>Ngày 14/03/2026</strong></li>
+                            <li><strong>Địa điểm: Sảnh Hội Trường A</strong> tại <strong>Trường Đại học Sài Gòn</strong></li>
                             <li><strong>Địa chỉ:</strong> 273 An Dương Vương, Phường Chợ Quán, Tp.HCM.</li>
                         </ul>
 
