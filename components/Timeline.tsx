@@ -2,12 +2,12 @@ import styles from "@/styles/Timeline.module.css";
 
 const events = [
   {
-    time: "13:00",
+    time: "13:30",
     desc: "Buổi trưa các bạn chuẩn bị phương tiện để di chuyển đến trường Đại Học Sài Gòn theo đúng địa chỉ mà mình đã ghi ở bên trên.",
     imgSide: "left",
   },
   {
-    time: "14:00",
+    time: "14:30",
     desc: 'Mình và các bạn hẹn gặp ở sảnh trong khuôn viên trường sau đó chúng ta cùng chụp hình lưu để lưu lại khoảng khắc này. Sau đó các bạn sẽ ra về.',
     imgSide: "right",
   },

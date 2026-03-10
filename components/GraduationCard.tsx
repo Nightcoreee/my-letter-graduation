@@ -6,6 +6,7 @@ import Calendar from "@/components/Calendar";
 import InvitationLetter from "@/components/InvitationLetter";
 import Location from "@/components/Location";
 import Timeline from "@/components/Timeline";
+import Image from "next/image";
 
 export default function GraduationCard() {
   const [bgColor] = useState("#faf6ed");
@@ -42,8 +43,6 @@ export default function GraduationCard() {
 
         {/* ── Main content ── */}
         <div className={styles.content}>
-
-
           {/* Info */}
           <div className={styles.info}>
             {/* "Graduation Ceremony" script label */}

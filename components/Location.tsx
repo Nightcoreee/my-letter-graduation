@@ -34,7 +34,7 @@ export default function Location() {
                     <p>Nếu bạn có đi xe đến, dưới đây là một số địa điểm để gửi xe:</p>
                     <ul className={styles.parkingList}>
                         <li><strong>Cổng sau ĐH Sài Gòn:</strong> <a href="https://maps.google.com/?q=Trung+tâm+Đào+tạo+Quốc+tế+Trường+Đại+học+Sài+Gòn" target="_blank" rel="noopener noreferrer"><span className={styles.address}>4 Nguyễn Trãi, Phường Chợ Quán, TP.HCM</span></a></li>
-                        <li><strong>Trường ĐHSP HCM:</strong> <a href="https://maps.google.com/?q=Đại+Học+Sư+Phạm+-+280+An+Dương+Vương" target="_blank" rel="noopener noreferrer"><span className={styles.address}>280 An Dương Vương, Phường Chợ Quán, Tp.HCM</span></a></li>
+                        <li><strong>Trường ĐHSP HCM:</strong> <a href="https://maps.google.com/?q=Trường+Đại+học+Sư+phạm+Thành+phố+Hồ+Chí+Minh" target="_blank" rel="noopener noreferrer"><span className={styles.address}>280 An Dương Vương, Phường Chợ Quán, Tp.HCM</span></a></li>
                     </ul>
 
                     <p>Một số thông tin liên lạc với mình: </p>

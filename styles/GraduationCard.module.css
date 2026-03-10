@@ -70,7 +70,7 @@
   color: #9ca3af;
 }
 
-
+/* ── Tablet ── */
 @media (max-width: 63.9375em) {
   .content {
     gap: 32px;
