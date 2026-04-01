@@ -1,17 +1,33 @@
 "use client";
-
 import { useState } from "react";
 import styles from "@/styles/GraduationCard.module.css";
 import Calendar from "@/components/Calendar";
 import InvitationLetter from "@/components/InvitationLetter";
 import Location from "@/components/Location";
 import Timeline from "@/components/Timeline";
+import Image from "next/image";
+import { useEffect } from "react";
 
 export default function GraduationCard() {
+  useEffect(() => {
+    const scrollFunction = () => {
+      const myButton = document.getElementById("myBtn");
+      if (!myButton) return;
+
+      if (document.documentElement.scrollTop > 0) {
+        myButton.classList.add(styles.show);
+      } else {
+        myButton.classList.remove(styles.show);
+      }
+    };
+
+    window.addEventListener("scroll", scrollFunction);
+    return () => window.removeEventListener("scroll", scrollFunction);
+  }, []);
+
+
   const [bgColor] = useState("#faf6ed");
   const [bgImg] = useState<string | null>(null);
-
-  
 
   return (
     <>
@@ -84,6 +100,17 @@ export default function GraduationCard() {
       <div className="Timeline-item">
         <Timeline />
       </div>
+      
+      <div id="myBtn" className={styles.btntoTop} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+        <Image 
+          src="/angle-double-up-solid.svg" 
+          alt="icon-back-to-top" 
+          width={20} 
+          height={20} 
+          style={{ opacity: 0.5 }}
+          />
+      </div>
+
     </>
   );
 }

@@ -22,7 +22,7 @@
     font-family: var(--font-itim);
     margin-top: 8px;
     text-align: center;
-    padding: 0 0 48px;
+    padding: 0 30px 48px 30px;
 }
 
 .avatarSection {
