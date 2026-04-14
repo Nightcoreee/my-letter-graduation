@@ -34,6 +34,27 @@
   gap: 8px
 }
 
+.toggleMode button {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #000;
+    transition: color 0.2s;
+}
+
+.toggleMode {
+  position: absolute;
+  right: 16px;
+}
+
+.toggleMode button:hover {
+    color: #000;
+}
 
 /* ── Tablet ── */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
