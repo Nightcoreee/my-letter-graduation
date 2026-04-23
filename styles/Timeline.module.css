@@ -190,6 +190,10 @@
   .dateDay {
     font-size: 20px;
   }
+
+  .cardLeft .cardRight {
+    text-align: left;
+  }
 }
 
 /* ── Mobile ── */
@@ -260,6 +264,7 @@
   .cardRight,
   .cardLeft {
     float: none;
+    text-align: left;
   }
 
   .dateDay {

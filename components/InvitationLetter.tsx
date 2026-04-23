@@ -10,10 +10,7 @@ export default function InvitationLetter() {
                     Hoàn thành hành trình học tập 
             </h2>
 
-            <p 
-                className={styles.subtitle}>
-                    Lời cảm ơn chân thành đến tất cả những người đã đồng hành cùng mình trong suốt quãng thời gian học tập. 
-            </p>
+           
         </div>
 
         <div className={styles.avatarSection}>
