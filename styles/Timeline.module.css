@@ -102,7 +102,6 @@
 
 .dateDay {
     font-size: 28px;
-    font-weight: 800;
     color: #fff;
     font-family: var(--font-itim);
     line-height: 1;
@@ -123,7 +122,6 @@
 
 .cardBody {
     font-family: var(--font-itim);
-    font-weight: 800;
     font-size: 22px;
     line-height: 1.7;
     color: #1e293b;
@@ -147,7 +145,6 @@
 
 .cardLeft .cardBody {
     text-align: justify;
-    text-align-last: left ;
     clear: both;
 }
 
@@ -172,6 +169,7 @@
 
   .cardBody {
     font-size: 18px;
+    text-align: left;
   }
 
   .dateBadge time {
@@ -189,10 +187,6 @@
 
   .dateDay {
     font-size: 20px;
-  }
-
-  .cardLeft .cardRight {
-    text-align: left;
   }
 }
 
@@ -255,6 +249,7 @@
 
   .cardBody {
     font-size: 18px;
+    text-align: left;
   }
 
   .dateBadge time {
@@ -264,7 +259,6 @@
   .cardRight,
   .cardLeft {
     float: none;
-    text-align: left;
   }
 
   .dateDay {
